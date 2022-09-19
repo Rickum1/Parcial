@@ -96,11 +96,11 @@ hr{
 .card1{
     position:relative; 
     width: 400px;
-    height: 450px;
+    height: 470px;
     border-radius: 5%;
-    margin-left: 20%;
+    margin-left: 130px;
     margin-bottom: 100px;
-    padding: auto;
+    padding: 10px;
     background-color: #9543a5;
     background-image: linear-gradient(45deg, #9543a5 24%, #5ddaeb 78%);
     border-width: 10px;
