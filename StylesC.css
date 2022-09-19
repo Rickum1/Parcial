@@ -3,20 +3,32 @@
     padding: 0px;
     width: auto;
     height: auto;
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.left{
+    float:left;
+    width: 25%;
+    height: 750px;
 }
 
 body{
     font: 400;
-    background-image: linear-gradient(24deg, #03ffc5 0%, #3fa0a9 50%, #3f3f79 100%);
 }
 
 img{
     width: 125px;
-    height: 150px;
+    height: 125px;
     border-radius: 50%;
     
+}
+
+hr{
+    border-style: outset;
+    border-width: 5px;
+    color: black;
 }
 
 .card{
@@ -26,17 +38,11 @@ img{
     background-color: rgb(221, 221, 221);
     border-width: 10px;
     text-align: center;
-    /* usar margen al momento del float*/
 }
+
 
 .Name{
     text-align: center;
-}
-
-hr{
-    border-style: outset;
-    border-width: 5px;
-    color: black;
 }
 
 .btn{
@@ -46,6 +52,7 @@ hr{
     cursor: pointer;
     padding: 10px 16px;
     display: inline-block;
+    box-shadow: 2px 4px 2px 4px rgba(4, 65, 79, 0.8);
 }
 .btn1{
     background-color: rgb(170, 21, 21);
@@ -54,10 +61,42 @@ hr{
     cursor: pointer;
     padding: 10px 16px;
     display: inline-block;
+    box-shadow: 2px 4px 2px 4px rgba(35, 2, 2, 0.8);
 }
 
-.btn-container{
-    box-shadow: rgba(0, 0, 0.2);
+.btn:hover{
+    box-shadow: 4px 6px 4px 6px rgba(8, 103, 110, 0.8);
+}
+.btn1:hover{
+    box-shadow: 4px 6px 4px 6px rgba(116, 4, 4, 0.5);
+}
+.btn:hover:active{
+    background-color: rgb(0, 123, 255);
+    color: rgb(67, 9, 67);
+    font-size: 13px;
+}
+.btn1:hover:active{
+    background-color: rgb(255, 0, 0);
+    color: rgb(67, 9, 67);
+    font-size: 13px;
+}
+/* Todo de aqui para arriba se va a copiar en las demas paginas cuando se implemente el float*/
+
+.right{
+    float:right;
+    width: 75%;  
+    height: 750px;   
+    background-image: url('./indexbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-/* Todo aqui para arriba copiar en las demas paginas cuando se implemente el float*/
+.card1{
+    position: relative;
+    width: 400px;
+    height: 50%;
+    margin: auto;
+    background-color:dimgrey;
+    border-width: 10px;
+    text-align: center;
+}

@@ -4,13 +4,18 @@
     width: auto;
     height: auto;
     box-sizing: border-box;
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.left{
+    float:left;
+    width: 25%;
+    height: 750px;
 }
 
 body{
     font: 400;
-    background-image: linear-gradient(24deg, #03ffc5 0%, #3fa0a9 50%, #3f3f79 100%);
 }
 
 img{
@@ -20,24 +25,24 @@ img{
     
 }
 
-.card{
-    position: relative;
-    width: 100%;
-    height: 600px;
-    background-color: rgb(221, 221, 221);
-    border-width: 10px;
-    text-align: center;
-    /* usar margen al momento del float*/
-}
-
-.Name{
-    text-align: center;
-}
-
 hr{
     border-style: outset;
     border-width: 5px;
     color: black;
+}
+
+.card{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(221, 221, 221);
+    border-width: 10px;
+    text-align: center;
+}
+
+
+.Name{
+    text-align: center;
 }
 
 .btn{
@@ -75,7 +80,23 @@ hr{
     color: rgb(67, 9, 67);
     font-size: 13px;
 }
-
-
-
 /* Todo de aqui para arriba se va a copiar en las demas paginas cuando se implemente el float*/
+
+.right{
+    float:right;
+    width: 75%;  
+    height: 750px;   
+    background-image: url('./indexbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card1{
+    position: relative;
+    width: 400px;
+    height: 50%;
+    margin: auto;
+    background-color: rgb(255, 0, 0);
+    border-width: 10px;
+    text-align: center;
+}
