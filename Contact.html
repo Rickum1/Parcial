@@ -52,7 +52,63 @@
                 <form> 
                  <div>
                     <label id="name"> Nombres</label>
+                    <input type="name" placeholder="Selene">
                  </div>
+                 <div>
+                    <label id="last.name"> Apellido</label>
+                    <input type="name" placeholder="Delgado Lopez">
+                 </div>
+                 <div>
+                    <label id="gender"> Genero</label>
+                    <div>
+                        <label> <input id="gender.option" type="radio"> F</label>
+                        <label> <input id="gender.option" type="radio"> M</label>
+                        <label> <input id="gender.option" type="radio"> N/A</label>
+                    </div>
+                 </div>
+                 <div>
+                    <label id="birthdate"> Fecha de Nacimiento</label>
+                    <input type="date">
+                 </div>
+                 <div>
+                    <label id="email"> Correo electronico</label>
+                    <input type="email" placeholder="yourname@gmail.com">
+                 </div>
+                 <div>
+                    <label id="country"> Pais </label>
+                    <select name="Paises" id="country">
+                        <option selected disabled> Elija un Pais</option>
+                        <option value="azua"> Azua</option>
+                        <option value="barahona"> Barahona </option>
+                        <option value="bahoruco"> Bahoruco </option>
+                        <option value="constanza"> Constanza</option>
+                        <option value="dajabon"> Dajabon</option>
+                        <option value="distrito.nacional"> Distrito Nacional</option>
+                        <option value="elias.piña"> Elias Piña</option>
+                        <option value="la.romana"> La Romana</option>
+                        <option value="la.vega"> La Vega</option>
+                        <option value="santo.domingo"> Santo Domingo</option>
+                        <option value="new.york"> Nueva York</option>
+                    </select>
+                    <div>
+                        <label id="address"> Direccion</label>
+                        <input type="type" placeholder="Los Minas, Santo Domingo"> 
+                    </div>
+                    <div>
+                        <label id="phone.number"> Numero de Telefono</label>
+                        <input type="number" placeholder="(000)-000-0000"> 
+                    </div>
+                    <div>
+                        <label id="description"> Descripcion: </label>
+                        <textarea rows="6" cols="50" name="comenta" form="usrform" >
+                            Inserte Texto aqui...
+                        </textarea>
+                    </div>
+                 </div>
+                    <div>
+                        <button type="reset"> Resetear</button>
+                        <button type="submit"> Enviar</button>
+                    </div>              
                 </form>
             </div>
         </div>

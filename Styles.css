@@ -86,7 +86,7 @@ hr{
     float:right;
     width: 75%;  
     height: 750px;   
-    background-image: url('./indexbg.jpg');
+    background-image: url('./indexbg.jpg');  
     background-size: cover;
     background-repeat: no-repeat;
 }

@@ -89,14 +89,22 @@ hr{
     background-image: url('./indexbg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    padding: 15%;
+    margin: auto;
 }
 
 .card1{
-    position: relative;
+    position:relative; 
     width: 400px;
-    height: 50%;
+    height: 450px;
+    border-radius: 5%;
     margin: auto;
-    background-color:dimgrey;
+    padding: auto;
+    margin-bottom: 100px;
+    background-color: #9543a5;
+    background-image: linear-gradient(45deg, #9543a5 24%, #5ddaeb 78%);
     border-width: 10px;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
 }
