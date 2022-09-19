@@ -98,9 +98,9 @@ hr{
     width: 400px;
     height: 450px;
     border-radius: 5%;
-    margin: auto;
-    padding: auto;
+    margin-left: 20%;
     margin-bottom: 100px;
+    padding: auto;
     background-color: #9543a5;
     background-image: linear-gradient(45deg, #9543a5 24%, #5ddaeb 78%);
     border-width: 10px;
